@@ -20,5 +20,5 @@ app.get("/", (req, res) => {
 app.use("/api/v1", userRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Api is running on http://localhost:${PORT}`);
+  console.log(`Api is running on http://localhost:${PORT}!`);
 });
