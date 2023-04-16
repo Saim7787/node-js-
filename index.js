@@ -3,7 +3,7 @@ import cors from "cors";
 import connectToMongo from "./config/db.js";
 import userRoutes from "./routes/user.js";
 const app = express();
-const PORT = process.env.PORT || 9000;
+const PORT = 9000;
 connectToMongo();
 
 // apply middleware
