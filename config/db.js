@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const connectToMongo = async () => {
   try {
-    const res = await mongoose.connect("mongodb+srv://saim:saim@cluster0.kacmsgj.mongodb.net/ExpensesTracker?retryWrites=true&w=majority");
+    const res = await mongoose.connect("mongodb+srv://saim:saim@cluster0.aq4fl1w.mongodb.net/Crudapp");
     if (res) {
       console.log("connected successfully");
     }
